@@ -94,3 +94,10 @@ $ sha1sum cmd.exe
 ```
 
 I have not finished testing all of the samples but so far I've found that the following bytes can be modified `330, 331, 408 - 412` for cmd.exe.
+
+
+# regsv32.exe
+
+The following offset can be modified without breaking the signature:
+
+320 - 323, 400 - 407
