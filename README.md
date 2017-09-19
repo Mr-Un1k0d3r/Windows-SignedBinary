@@ -4,7 +4,7 @@ The idea was to bypass endpoint solution that block known "malicious" signed app
 
 # The analysis
 
-I may have misundertood the output after further analysis but the result remain the same :)
+I may have misundertood the output after further analysis but the result remains the same.
 
 I used `signtool verify /v /a cmd.exe`
 
@@ -93,4 +93,4 @@ $ sha1sum cmd.exe
 0f3c4ff28f354aede202d54e9d1c5529a3bf87d8 *cmd.exe
 ```
 
-I have not finish testing all of the samples but so far I've found that the following bytes can be modified `330, 331, 408 - 412` for cmd.exe.
+I have not finished testing all of the samples but so far I've found that the following bytes can be modified `330, 331, 408 - 412` for cmd.exe.
