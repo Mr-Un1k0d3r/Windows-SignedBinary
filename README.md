@@ -1,8 +1,8 @@
-# InvalidSign
+# Generate Windows Signed Binary With a Different Hash
 
 The idea was to bypass endpoint solution that block known "malicious" signed application such as "regsvr32.exe". I wanted to find a way to get a valid signed file with a different hash.
 
-# The analysis
+# The Analysis
 
 I may have misundertood the output after further analysis but the result remains the same.
 
