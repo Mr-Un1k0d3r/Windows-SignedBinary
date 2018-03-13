@@ -59,7 +59,7 @@ while i < len(orig):
 print "done"
 ```
 
-`python generate.py cmd.exe` was then executed and generated more 300 Gb of new files.
+`python generate.py cmd.exe` was then executed and generated more than 300 Gb of new files.
 
 # Final step 
 
