@@ -4,9 +4,7 @@ The idea was to bypass endpoint solution that block known "malicious" signed app
 
 # The Analysis
 
-I may have misundertood the output after further analysis but the result remains the same.
-
-I used `signtool verify /v /a cmd.exe`
+Using `signtool verify /v /a cmd.exe`
 
 ```
 C:\signcheck>signtool verify /a /v cmd.exe
@@ -35,7 +33,7 @@ $ sha1sum.exe cmd.exe
 
 Interesting same file 2 different hashes.
 
-# Generating test files
+# Generating Test Files
 
 At this point I suspected that the signature may not include all sections of the file.
 
@@ -61,7 +59,7 @@ print "done"
 
 `python generate.py cmd.exe` was then executed and generated more than 300 Gb of new files.
 
-# Final step 
+# Final Step 
 
 We now need to validate each files we created to see if they pass the signature test.
 
