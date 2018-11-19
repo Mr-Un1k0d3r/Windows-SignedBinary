@@ -101,3 +101,9 @@ The following bytes can be modified without breaking the signature:
 
 The following bytes can be modified without breaking the signature:
 `320 - 323, 400 - 407`
+
+
+# msbuild.exe (x86)
+
+The following bytes can be modified without breaking the signature:
+`216 - 219`
